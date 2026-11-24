@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    height: 100vh;
+}
+
+.side-bar {
+    width: 240px;
+    height: 100%;
+    background: black;
+}
+
+.media-content {
+    width: calc(100% - 240px);
+    height: 100%;
+    background: grey;
+}
+
